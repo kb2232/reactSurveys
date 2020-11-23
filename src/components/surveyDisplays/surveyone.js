@@ -1,5 +1,5 @@
 import React, {useState,useCallback} from 'react';
-import Mysurvey from '../surveyTypes/surveyone'
+import Mysurvey from '../surveyTypes/surveyone';
 
 function SurveyOne() {
   const [showCompletedPage, setshowCompletedPage] =useState(true)
